@@ -1,0 +1,2 @@
+# apexSpecialist
+apexSpecialistのスーパーバッチ取得時とのソース
