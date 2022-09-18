@@ -1,7 +1,5 @@
 public with sharing class MaintenanceRequestHelper {
 
-    private Integer minCycles = 0;
-    
     public static void updateWorkOrders(List<case> requests) {
         Map<String, Case> targetRequestMap = new Map<String, Case>(); // key:caseId
         for (Case c : requests) {
